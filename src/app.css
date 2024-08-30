@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #fff;
+}
+
+.blue-gradient {
+	background: linear-gradient(92deg, #1811e1 2.87%, #3e97eb 96.18%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+:root {
+	color-scheme: dark;
+}
